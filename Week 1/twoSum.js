@@ -19,16 +19,17 @@
 
 function twoSum(nums, target) {
   let a = 0;
-  let b = nums.length - 1;
-  while (a < b) {
+  let b = 1;
+  while (a < nums.length - 1) {
     let sum = nums[a] + nums[b];
     console.log(sum, a, b);
     if (sum === target) {
       return [a, b];
-    } else if (sum > target) {
-      b--;
-    } else {
+    } else if (b >= nums.length) {
       a++;
+      b = a + 1;
+    } else {
+      b++;
     }
   }
 }
