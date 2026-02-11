@@ -18,22 +18,18 @@
 // Output: [0,1]
 
 function twoSum(nums, target) {
-  let a = 0;
-  let b = 1;
-  while (a < nums.length - 1) {
-    let sum = nums[a] + nums[b];
-    console.log(sum, a, b);
-    if (sum === target) {
-      return [a, b];
-    } else if (b >= nums.length) {
-      a++;
-      b = a + 1;
+  const tracker = {};
+  for (let i = 0; i < nums.length; i++) {
+    let difference = target - nums[i];
+    if (difference in tracker) {
+      return [tracker[difference], i];
     } else {
-      b++;
+      tracker[nums[i]] = i;
     }
   }
 }
 
-console.log(twoSum([3, 4, 5, 6], 7));
-console.log(twoSum([4, 5, 6], 10));
-console.log(twoSum([5, 5], 10));
+console.log(twoSum([2, 1, 5, 3], 4)); //[1,3]
+console.log(twoSum([3, 4, 5, 6], 7)); //[0,1]
+console.log(twoSum([4, 5, 6], 10)); //[0,2]
+console.log(twoSum([5, 5], 10)); //[0,1]
