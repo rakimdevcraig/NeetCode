@@ -17,7 +17,7 @@ Devlog week of Feb 13
 
 ## What Went Well
 
-- _Successfully navigated the first week and identified a sustainable workflow._
+- Successfully navigated the first week and identified a sustainable workflow.
 
 ## What Could I Do Better?
 
