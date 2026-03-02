@@ -6,12 +6,12 @@ function buyAndSellStock(prices) {
     if (price < minPrice) {
       minPrice = price;
     }
-    let profit = prices[i] - minPrice;
+    let profit = price - minPrice;
     if (profit > maxProfit) {
       maxProfit = profit;
     }
-    return maxProfit;
   }
+  return maxProfit;
 }
 
 buyAndSellStock([10, 1, 5, 6, 7, 1]); //6 buy on day 2 sell on day 5

@@ -10,7 +10,7 @@ function longestSubstring(s) {
     if (!stringObj[s[right]]) {
       stringObj[s[right]] = true;
       right++;
-      maxLength = Math.max(Object.keys(stringObj).length, maxLength);
+      maxLength = Math.max(maxLength, right - left);
     } else {
       delete stringObj[s[left]];
       left++;

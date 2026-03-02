@@ -22,5 +22,6 @@ function characterReplacement(s, k) {
 
   return maxLength;
 }
-characterReplacement((s = "XYYX"), (k = 2));
-characterReplacement((s = "AAABABB"), (k = 1));
+
+characterReplacement("XYYX", 2);
+characterReplacement("AAABABB", 1);

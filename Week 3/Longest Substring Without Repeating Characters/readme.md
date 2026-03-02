@@ -1,5 +1,9 @@
 # Longest Substring Without Repeating Characters
 
+**Difficulty:**Medium
+
+## Problem
+
 Given a string `s`, find the length of the longest substring without duplicate
 characters.
 

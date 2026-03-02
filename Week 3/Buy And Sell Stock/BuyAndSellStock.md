@@ -1,5 +1,9 @@
 # Best Time to Buy and Sell Stock
 
+**Difficulty:** Easy
+
+## Problem
+
 You are given an integer array `prices` where `prices[i]` is the price of
 NeetCoin on the `ith` day.
 
