@@ -20,7 +20,7 @@ One big takeaway for me is that whatever you give a model — whether it is text
 
 ### LoRA (Low-Rank Adaptation)
 
-LoRA is a way to fine-tune a model efficiently without changing all of its weights. Instead of retraining the entire model or making huge changes, LoRA allows you to train a smaller set of changes that can customize the model for a specific use case.
+LoRA is a way to fine-tune a model efficiently without changing all of its weights. Instead of retraining the entire model or making huge changes, LoRA allows you to train a smaller set of changes that can customize the model for your specific use case.
 
 ### Image Classification
 

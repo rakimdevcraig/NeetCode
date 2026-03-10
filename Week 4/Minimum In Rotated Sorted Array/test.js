@@ -2,7 +2,7 @@ const { describe, it } = require("node:test");
 const assert = require("node:assert");
 const minValue = require("./index");
 
-describe("matrix search", () => {
+describe("Minimum in rotated array", () => {
   it("returns 1 as the smallest value", () => {
     assert.strictEqual(minValue([3, 4, 5, 6, 1, 2]), 1);
   });
