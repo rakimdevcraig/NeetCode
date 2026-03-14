@@ -20,7 +20,6 @@ function evalRPN(tokens) {
     }
   }
 
-  console.log(stack[0]);
   return stack[0];
 }
 
