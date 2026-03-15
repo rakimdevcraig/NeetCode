@@ -23,6 +23,4 @@ function evalRPN(tokens) {
   return stack[0];
 }
 
-evalRPN(["1", "2", "+", "3", "*", "4", "-"]);
-// evalRPN(["1", "2", "+"]);
 module.exports = evalRPN;
