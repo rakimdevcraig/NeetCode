@@ -1,8 +1,6 @@
+Problem:
+
 Invert Binary Tree
-Easy
-Topics
-Company Tags
-Hints
 You are given the root of a binary tree root. Invert the binary tree and return its root.
 
 Example 1:
@@ -26,3 +24,4 @@ Constraints:
 -100 <= Node.val <= 100
 
 Approach:
+We're gonna swap the children of the root first, then the left side of the root all the way down, then swap all the way down the right side.
